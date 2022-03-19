@@ -104,6 +104,7 @@ $app->register(App\Providers\AuthServiceProvider::class);
 $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
 $app->register('Sentry\Laravel\ServiceProvider');
 // require __DIR__ . '/../app/Http/routes.php';
+$app->register(Kreait\Laravel\Firebase\ServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

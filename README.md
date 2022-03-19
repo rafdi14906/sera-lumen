@@ -1,24 +1,23 @@
-# Lumen PHP Framework
+<ol>
+    <li>Create database mongodb dan mysql</li>
+    <li>Restore mongodb sera json dan sera sql ke database masing-masing. Untuk file restore nya berada di <b>Database</b> > <b>Schema</b></li>
+    <li>Atur .env untuk database nya 
+        <br><code>DB_CONNECTION=mysql</code>
+        <br><code>DB_HOST=localhost</code>
+        <br><code>DB_PORT=3306</code>
+        <br><code>DB_DATABASE=sera</code>
+        <br><code>DB_USERNAME=root</code>
+        <br><code>DB_PASSWORD=</code>
+        <br>
+        <br><code>MONGODB_CONNECTION=mongodb</code>
+        <br><code>MONGODB_HOST=localhost</code>
+        <br><code>MONGODB_PORT=27017</code>
+        <br><code>MONGODB_DATABASE=sera</code>
+        <br><code>MONGODB_USERNAME=</code>
+        <br><code>MONGODB_PASSWORD=</code></li>
+    <li>Jalan kan <code>composer install</code></li>
+    <li>Start server <code>php -S localhost:8000 public/index.php</code></li>
+    <li>Buka <code>localhost:8000/api/documentation</code> untuk menjalankan swagger</li>
+</ol>
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Untuk lengkapnya silahkan buka file <b>Sera.docx</b>

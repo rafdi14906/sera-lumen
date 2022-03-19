@@ -35,3 +35,5 @@ $router->get('/filter_object', 'FilterObjectController@index');
 $router->get('/debug-sentry', function () {
     throw new Exception('My first Sentry error!');
 });
+
+$router->get('/employee', 'EmployeeController@index');
